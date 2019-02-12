@@ -39,6 +39,25 @@ return [
                 * Maybe the page that you are looking for has been deleted by Admin<br/>
                 * You can go back by click Back Button at browser<br/>',
 
+<<<<<<< HEAD
+=======
+    'log_try_view' => 'Try view the data :name at :module',
+    'log_try_edit' => 'Try edit the data :name at :module',
+    'log_try_add' => 'Try add data at :module',
+    'log_try_add_save' => 'Try add the data :name data at :module',
+    'log_try_delete' => 'Try delete the :name data at :module',
+    'log_try_delete_selected' => 'Try delete selected at :module',
+    'log_try_delete_image' => 'Try delete the image of :name data at :module',
+    'log_try_update' => 'Try update the :name data at :module',
+    'log_add' => 'Add New Data :name at :module',
+    'log_update' => 'Update data :name at :module',
+    'log_delete' => 'Delete data :name at :module',
+    'log_delete_image' => 'Delete the image of :name at :module',
+    'log_login' => ':email login with IP Address :ip',
+    'log_forgot' => 'Someone with IP :ip request a password for :email',
+    'log_logout' => ':email logout',
+
+>>>>>>> 5.4.0
     'alert_delete_selected' => 'Are you sure want to delete all selected data ?',
     'alert_delete_selected_success' => 'Delete selected success !',
     'alert_bulk_action_button' => 'Are you sure want to',
@@ -59,6 +78,10 @@ return [
     'alert_required' => 'Please make sure to fill out all the required fields correctly',
     'alert_error_ajax' => 'Okay, It is embarasing, something went wrong, we will fix it soon !',
     'alert_validation_error' => 'Please fill out the form correctly : :error',
+<<<<<<< HEAD
+=======
+    'alert_select_a_data' => 'Please select at least one data!',
+>>>>>>> 5.4.0
 
     'add_data_page_title' => 'Add :module',
     'edit_data_page_title' => 'Edit :module',
@@ -126,7 +149,11 @@ return [
     'online' => 'Online',
     'controller_route_404' => 'Controller / Route Not Found',
     'home' => 'Home',
+<<<<<<< HEAD
     'Notificactions' => 'Notifications',
+=======
+    'Notifications' => 'Notifications',
+>>>>>>> 5.4.0
     'Privileges' => 'Privileges',
     'Privileges_Roles' => 'Privileges Roles',
     'Add_New_Privilege' => 'Add New Privilege',
@@ -134,9 +161,13 @@ return [
     'add_user' => 'Add User',
     'List_users' => 'List Users',
     'Menu_Management' => 'Menu Management',
+<<<<<<< HEAD
     'menu_filemanager' => 'File Manager',
     'Add_New_Setting' => 'Add New Setting',
     'Update_Setting' => 'Your setting has been saved !',
+=======
+    'Add_New_Setting' => 'Add New Setting',
+>>>>>>> 5.4.0
     'Add_New_Module' => 'Add New Module',
     'List_Module' => 'List Module',
     'Add_New_Statistic' => 'Add New Statistic',
@@ -148,7 +179,11 @@ return [
     'settings' => 'Settings',
     'Users_Management' => 'Users Management',
     'list_API' => 'List API (Documentation)',
+<<<<<<< HEAD
     'Generate_Secret_Key' => 'Generate Secret Key',
+=======
+    'Generate_Screet_Key' => 'Generate Secret Key',
+>>>>>>> 5.4.0
     'Add_New_Email' => 'Add New Email',
     'List_Email_Template' => 'List Email Template',
     'Email_Templates' => 'Email Templates',
@@ -202,6 +237,12 @@ return [
     'filter_from' => 'from',
     'filter_to' => 'to',
     'filter_sorting' => 'Sorting',
+<<<<<<< HEAD
+=======
+    'filter_rows_total' => 'Total rows',
+    'filter_rows_to' => 'to',
+    'filter_rows_of' => 'of',
+>>>>>>> 5.4.0
 
     // confirmation
     'confirmation_yes' => 'Yes!',
@@ -210,6 +251,7 @@ return [
     //filemanager
     'chose_an_image' => 'Choose an image ',
     'chose_an_file' => 'Choose an file ',
+<<<<<<< HEAD
 
     //action confirmation
     'confirmation_title' => 'Confirmation',
@@ -217,6 +259,32 @@ return [
     'confirmButtonText' => 'Yes',
 
     //datamodal
+=======
+
+    //action confirmation
+    'confirmation_title' => 'Confirmation',
+    'confirmation_text' => 'Are you sure want to do this action?',
+    'confirmButtonText' => 'Yes',
+
+    // privilege
+    'privileges_name' => 'Privilege Name',
+    'privileges_super_admin' => 'Super Admin',
+    'privileges_standart_user' => 'Standart user',
+    'privileges_ID' => 'ID',
+    'set_as_superadmin' => 'Set as Superadmin',
+    'chose_theme_color_select' => '** Choose Backend Theme Color',
+    'chose_theme_color' => ' Theme Color',
+    'privileges_configuration' => 'Privileges Configuration',
+    'privileges_module_list_no' => 'No.',
+    'privileges_module_list_mod_names' => 'Module\'s Name',
+    'privileges_module_list_view' => 'View',
+    'privileges_module_list_create' => 'Create',
+    'privileges_module_list_read' => 'Read',
+    'privileges_module_list_update' => 'Update',
+    'privileges_module_list_delete' => 'Delete',
+
+    //datamodal 
+>>>>>>> 5.4.0
     'datamodal_select' => 'Select',
     'datamodal_search_and_enter' => 'Search and enter...',
     'datamodal_enter_to_search' => 'Enter to search',
@@ -231,10 +299,13 @@ return [
     'this_field_is_required' => 'This field is required',
     'text_form' => 'Form',
     "your_file_extension_is_not_allowed " => "Your file extension is not allowed !",
+<<<<<<< HEAD
 
     'toggle_navigation' => "Toggle navigation",
     'information' => "Information",
     'at_least_one_row' => 'Please select at least one row!',
     'click_to_sort_ascending' => 'Click to sort ascending',
     'click_to_sort_descending' => 'Click to sort descending',
+=======
+>>>>>>> 5.4.0
 ];

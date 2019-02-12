@@ -15,6 +15,7 @@ use Crocodicstudio\Crudbooster\Modules\SettingModule\CbSettingsServiceProvider;
 use Illuminate\Support\ServiceProvider;
 use Crocodicstudio\Crudbooster\commands\InstallationCommand;
 use Illuminate\Foundation\AliasLoader;
+use App;
 
 class CRUDBoosterServiceProvider extends ServiceProvider
 {
@@ -27,6 +28,7 @@ class CRUDBoosterServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->loadViewsFrom(__DIR__.'/views', 'crudbooster');
+<<<<<<< HEAD
         $this->publishes([__DIR__.'/CBCoreModule/configs/crudbooster.php' => config_path('crudbooster.php')], 'cb_config');
         $this->publishes([__DIR__.'/localization' => resource_path('lang')], 'cb_localization');
 
@@ -46,6 +48,11 @@ class CRUDBoosterServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/laravel-filemanager/src/views/script.blade.php' => resource_path('views/vendor/laravel-filemanager/script.blade.php'),
         ], 'cb_lfm');
+=======
+        $this->publishes([__DIR__.'/configs/crudbooster.php' => config_path('crudbooster.php')],'cb_config');            
+        $this->publishes([__DIR__.'/localization' => resource_path('lang')], 'cb_localization');                 
+        $this->publishes([__DIR__.'/database' => base_path('database')],'cb_migration');
+>>>>>>> 5.4.0
 
         $this->publishes([
             __DIR__.'/CBCoreModule/publieshed_files/readme.txt' => resource_path('views/vendor/crudbooster/type_components/readme.txt'),
@@ -55,10 +62,23 @@ class CRUDBoosterServiceProvider extends ServiceProvider
             $this->publishes([__DIR__.'/CBCoreModule/publieshed_files/AdminUsersController.php' => app_path('Http/Controllers/AdminUsersController.php')], 'cb_user_controller');
         }
 
+<<<<<<< HEAD
 
         $this->defineValidationRules();
         $this->loadRoutesFrom( __DIR__.'/routes.php');
         $this->registerUserModule();
+=======
+        if(!file_exists(app_path('Http/Controllers/AdminCmsUsersController.php'))) {
+            $this->publishes([__DIR__.'/userfiles/controllers/AdminCmsUsersController.php' => app_path('Http/Controllers/AdminCmsUsersController.php')],'cb_user_controller');
+        }        
+
+        $this->publishes([
+            __DIR__.'/assets'=>public_path('vendor/crudbooster')
+        ],'cb_asset');  
+                    
+        require __DIR__.'/validations/validation.php';        
+        require __DIR__.'/routes.php';                        
+>>>>>>> 5.4.0
     }
 
     /**
@@ -78,9 +98,15 @@ class CRUDBoosterServiceProvider extends ServiceProvider
 
         $this->defineAuthGuard();
 
+<<<<<<< HEAD
         $this->registerThirdPartyPackages();
 
         $this->setAliases();
+=======
+        $this->commands('crudboosterinstall');
+        $this->commands('crudboosterupdate');
+        $this->commands(['\crocodicstudio\crudbooster\commands\CrudboosterVersionCommand']);
+>>>>>>> 5.4.0
 
         $this->app->singleton(\Crocodicstudio\Crudbooster\CBCoreModule\CbRouter::class);
         $this->registerCrudBoosterModules();
@@ -115,6 +141,7 @@ class CRUDBoosterServiceProvider extends ServiceProvider
         $loader->alias('CSSBootstrap', 'Crocodicstudio\Crudbooster\Helpers\CSSBootstrap');
         $loader->alias('CbRouter', CbRouter::class);
     }
+<<<<<<< HEAD
 
     private function registerThirdPartyPackages(): void
     {
@@ -150,4 +177,17 @@ class CRUDBoosterServiceProvider extends ServiceProvider
             'is_active' => 1,
         ]);
     }
+=======
+   
+    private function registerCrudboosterCommand()
+    {
+        $this->app->singleton('crudboosterinstall',function() {
+            return new CrudboosterInstallationCommand;
+        });
+        
+        $this->app->singleton('crudboosterupdate',function() {
+            return new CrudboosterUpdateCommand;
+        });        
+    }    
+>>>>>>> 5.4.0
 }

@@ -34,8 +34,29 @@ return [
                 * Consulta con el administrador, puede que haya eliminado esta página<br/>
                 * Puedes regresar a la página anterior haciendo click en la flecha hacia atras del navegador<br/>',
 
+<<<<<<< HEAD
     'alert_delete_selected' => '¿Seguro que quieres eliminar todos los elementos seleccionados?',
     'alert_delete_selected_success' => '¡El borrado de los elementos seleccionados se ha completado con éxito!',
+=======
+    'log_try_view' => 'Intentar ver :name en :module',
+    'log_try_edit' => 'Intentar editar :name en :module',
+    'log_try_add' => 'Intentar añadir datos al :module',
+    'log_try_add_save' => 'Intentar añadir :name data en :module',
+    'log_try_delete' => 'Intentar eliminar :name en :module',
+    'log_try_delete_selected' => 'Intentar eliminar el :module',
+    'log_try_delete_image' => 'Intentar eliminar la imagen de :name en módulo :module',
+    'log_try_update' => 'Intentar actualizar el :name en :module',
+    'log_add' => 'Añadir nueva información :name en :module',
+    'log_update' => 'Actualizar información :name en :module',
+    'log_delete' => 'Eliminar información :name en :module',
+    'log_delete_image' => 'Eliminar la imagen de :name en :module',
+    'log_login' => 'Ingreso de :email desde la Dirección IP :ip',
+    'log_forgot' => 'Alguien con la dirección IP :ip solicitó su contraseña por email a :email',
+    'log_logout' => ':email se desconectó',
+    'alert_delete_selected' => '¿Seguro que quieres eliminar todos los elementos seleccionados?',
+    'alert_delete_selected_success' => '¡El borrado de los elementos seleccionados se ha completado con éxito!',
+    'alert_bulk_action_button' => 'Está seguro que quiere',
+>>>>>>> 5.4.0
     'alert_action' => '¡Has :action con éxito!',
     'alert_add_data_success' => '¡Los datos han sido añadidos!',
     'alert_add_data_failed' => '¡Algo ha fallado al grabar los datos!',
@@ -53,6 +74,10 @@ return [
     'alert_required' => 'Asegurate que has rellenado todos los campos obligatorios',
     'alert_error_ajax' => 'Parece que tenemos problemas en el sistema, vamos a intentar corregirlo lo antes posible !',
     'alert_validation_error' => 'Rellena el formulario correctamente : :error',
+<<<<<<< HEAD
+=======
+    'alert_select_a_data' => 'Por favor, seleccione al menos un registro',
+>>>>>>> 5.4.0
 
     'add_data_page_title' => 'Añadir :module',
     'edit_data_page_title' => 'Editar :module',
@@ -120,7 +145,11 @@ return [
     'online' => 'En línea',
     'controller_route_404' => 'Controlador o Ruta no encontrado(a).',
     'home' => 'Principal',
+<<<<<<< HEAD
     'Notificactions' => 'Notificaciones',
+=======
+    'Notifications' => 'Notificaciones',
+>>>>>>> 5.4.0
     'Privileges' => 'Privilegios',
     'Privileges_Roles' => 'Privilegios & Roles',
     'Add_New_Privilege' => 'Añadir Nuevo Privilegio',
@@ -140,7 +169,11 @@ return [
     'settings' => 'Ajustes',
     'Users_Management' => 'Gestión de usuarios',
     'list_API' => 'Ver API (Documentación)',
+<<<<<<< HEAD
     'Generate_Secret_Key' => 'Generar Secret Key',
+=======
+    'Generate_Screet_Key' => 'Generar Secret Key',
+>>>>>>> 5.4.0
     'Add_New_Email' => 'Añadir Nuevo Email',
     'List_Email_Template' => 'Ver Plantillas de Correo',
     'Email_Templates' => 'Plantillas de Correo',
@@ -188,6 +221,12 @@ return [
     'filter_from' => 'Desde',
     'filter_to' => 'Hasta',
     'filter_sorting' => 'Sorting',
+<<<<<<< HEAD
+=======
+    'filter_rows_total' => 'Total de registros',
+    'filter_rows_to' => 'a',
+    'filter_rows_of' => 'de',
+>>>>>>> 5.4.0
     // confirmation
     'confirmation_yes' => '¡Sí!',
     'confirmation_no' => 'No',
@@ -195,6 +234,7 @@ return [
     'chose_an_image' => 'Elige una imagen ',
     'chose_an_file' => 'Elige un fichero ',
 
+<<<<<<< HEAD
     //datamodal
 
     'datamodal_select' => 'Seleccionar',
@@ -206,11 +246,37 @@ return [
     'datamodal_search_and_enter' => 'Search and enter...',
     'datamodal_enter_to_search' => 'Enter to search',
     'datamodal_browse_data' => 'Browse Data',
+=======
+    // privilege
+    'privileges_name' => 'Nombre del Privilegio',
+    'privileges_super_admin' => 'Super Admin',
+    'privileges_standart_user' => 'Usuario Estándar',
+    'privileges_ID' => 'ID',
+    'set_as_superadmin' => 'Establecer como Superadmin',
+    'chose_theme_color_select' => '** Escoger color del tema',
+    'chose_theme_color' => ' Color del Tema',
+    'privileges_configuration' => 'Configuración de Privilegios',
+    'privileges_module_list_no' => 'No.',
+    'privileges_module_list_mod_names' => 'Módulos',
+    'privileges_module_list_view' => 'Ver',
+    'privileges_module_list_create' => 'Crear',
+    'privileges_module_list_read' => 'Leer',
+    'privileges_module_list_update' => 'Actualizar',
+    'privileges_module_list_delete' => 'Eliminar',
+
+    //datamodal
+
+    'datamodal_select' => 'Seleccionar',
+    'datamodal_search_and_enter' => 'Buscar y enter...',
+    'datamodal_enter_to_search' => 'Enter para buscar',
+    'datamodal_browse_data' => 'Escoger Dato',
+>>>>>>> 5.4.0
 
     //action confirmation
     'confirmation_title' => 'Confirmación',
     'confirmation_text' => '¿Está seguro que desea realizar esta acción?',
 
+<<<<<<< HEAD
     'datamodal_browse_file' => 'Browse File',
 
     //child 
@@ -227,4 +293,16 @@ return [
     'at_least_one_row' => 'Please select at least one row!',
     'click_to_sort_ascending' => 'Click to sort ascending',
     'click_to_sort_descending' => 'Click to sort descending',
+=======
+    'datamodal_browse_file' => 'Escoger Archivo',
+
+    //child 
+    'table_detail' => 'Tabla de Detalles',
+    'your_file_size_is_too_big' => 'El tamaño del archivo es demasiado grande',
+    'save_changes' => 'Guardar Cambios',
+    'please_complete_the_form' => 'Por favor, complete el formulario!',
+    'this_field_is_required' => 'Este campo es requerido',
+    'text_form' => 'Formulario',
+    "your_file_extension_is_not_allowed " => "La extensión del archivo no es permitida!",
+>>>>>>> 5.4.0
 ];

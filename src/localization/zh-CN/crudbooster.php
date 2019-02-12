@@ -39,6 +39,25 @@ return [
                 * 也许您正在寻找的页面已经被管理员删除<br/>
                 * 你可以通过点击浏览器的后退按钮返回<br/>',
 
+<<<<<<< HEAD
+=======
+    'log_try_view' => '请尝试在:module查看:name',
+    'log_try_edit' => '请尝试在:module编辑:name ',
+    'log_try_add' => '请尝试在:module添加数据',
+    'log_try_add_save' => '请尝试在:module新增:name',
+    'log_try_delete' => '请尝试在:module删除:name',
+    'log_try_delete_selected' => '请尝试在:module删除选中项',
+    'log_try_delete_image' => '请尝试在:module删除:name的头像',
+    'log_try_update' => '请尝试在:module更新:name',
+    'log_add' => '在:module新增:name',
+    'log_update' => '在:module更新:name',
+    'log_delete' => '在:module删除:name',
+    'log_delete_image' => '在:module删除:name的头像',
+    'log_login' => ':email 登录并附带 :ip',
+    'log_forgot' => '有人使用 :ip 为 :email申请密码',
+    'log_logout' => ':email 退出',
+
+>>>>>>> 5.4.0
     'alert_delete_selected' => '你确认批量删除吗 ?',
     'alert_delete_selected_success' => '删除选中项 !',
     'alert_bulk_action_button' => '你确认',
@@ -125,7 +144,11 @@ return [
     'online' => '在线',
     'controller_route_404' => '页面不存在',
     'home' => '首页',
+<<<<<<< HEAD
     'Notificactions' => 'Notifications',
+=======
+    'Notifications' => 'Notifications',
+>>>>>>> 5.4.0
     'Privileges' => 'Privileges',
     'Privileges_Roles' => '角色权限',
     'Add_New_Privilege' => '新增角色',
@@ -145,7 +168,11 @@ return [
     'settings' => '配置管理',
     'Users_Management' => '用户管理',
     'list_API' => 'API列表',
+<<<<<<< HEAD
     'Generate_Secret_Key' => '生成密钥',
+=======
+    'Generate_Screet_Key' => '生成密钥',
+>>>>>>> 5.4.0
     'Add_New_Email' => '新建邮件',
     'List_Email_Template' => '邮件模块列表',
     'Email_Templates' => '邮件模块',
@@ -206,6 +233,7 @@ return [
     //filemanager
     'chose_an_image' => '选择一张图片 ',
     'chose_an_file' => '选择一个文件 ',
+<<<<<<< HEAD
 
     //action confirmation
     'confirmation_title' => '确认',
@@ -224,4 +252,35 @@ return [
     'click_to_sort_ascending' => 'Click to sort ascending',
     'click_to_sort_descending' => 'Click to sort descending',
 
+=======
+
+    //action confirmation
+    'confirmation_title' => '确认',
+    'confirmation_text' => '你确认执行此操作吗?',
+    'confirmButtonText' => '是',
+
+    // privilege
+    'privileges_name' => '角色名称',
+    'privileges_super_admin' => '超级管理员',
+    'privileges_standart_user' => '普通用户',
+    'privileges_ID' => '角色编号',
+    'set_as_superadmin' => '设置为超级管理员',
+    'chose_theme_color_select' => '** 选择主题',
+    'chose_theme_color' => ' 主题颜色',
+    'privileges_configuration' => '权限配置',
+    'privileges_module_list_no' => '编号',
+    'privileges_module_list_mod_names' => '模块名称',
+    'privileges_module_list_view' => '查看',
+    'privileges_module_list_create' => '可写',
+    'privileges_module_list_read' => '只读',
+    'privileges_module_list_update' => '更新',
+    'privileges_module_list_delete' => '删除',
+
+    //datamodal 
+    'datamodal_select' => '选择',
+    'datamodal_search_and_enter' => '查询并进入...',
+    'datamodal_enter_to_search' => '进入查询',
+    'datamodal_browse_data' => '浏览数据',
+
+>>>>>>> 5.4.0
 ];

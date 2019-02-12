@@ -32,6 +32,7 @@ return [
                 * Certifique-se de que a capitalização correta, pois é sensível a maiúsculas e minúsculas<br/> 
                 * Talvez a página que você está procurando tenha sido excluída pelo Administrador<br/> 
                 * Você pode voltar clicando no botão Voltar no navegador<br/>',
+<<<<<<< HEAD
 
     'alert_delete_selected' => 'Tem certeza de que deseja excluir todos os dados selecionados?',
     'alert_delete_selected_success' => 'Excluido com sucesso!',
@@ -83,6 +84,73 @@ return [
     'button_reset' => 'Reset',
     'button_add_to_table' => 'Add To Table',
 
+=======
+    'log_try_view' => 'Tente visualizar o conteúdo de :name em :module',
+    'log_try_edit' => 'Tente editar o conteúdo de :name em :module',
+    'log_try_add' => 'Tente adicionar conteúdo em :module',
+    'log_try_add_save' => 'Tente adicionar o conteúdo de :name data em :module',
+    'log_try_delete' => 'Tente excluir o conteúdo :name em :module',
+    'log_try_delete_selected' => 'Tente excluir o selecionado em :module',
+    'log_try_delete_image' => 'Tente excluir a imagem de :name em :module',
+    'log_try_update' => 'Tente atualizar o conteúdo de :name em :module',
+    'log_add' => 'Adicionar novo conteúdo de :name em :module',
+    'log_update' => 'Atualizar dados de :name em :module',
+    'log_delete' => 'Excluir o conteúdo de :name em :module',
+    'log_delete_image' => 'Excluir a imagem de :name em :module',
+    'log_login' => ':email se logou com o endereo de IP :ip',
+    'log_forgot' => 'Algueḿ com o IP :ip solicitou uma senha para :email',
+    'log_logout' => ':email sair',
+    'alert_delete_selected' => 'Tem certeza de que deseja excluir todos os dados selecionados?',
+    'alert_delete_selected_success' => 'Excluido com sucesso!',
+    'alert_action' => ':action executado com sucesso!',
+    'alert_add_data_success' => 'O conteúdo foi adicionado!',
+    'alert_add_data_failed' => 'Falha ao salvar os dados!',
+    'alert_update_data_success' => 'Os dados foram atualizados!',
+    'alert_update_data_failed' => 'Falha ao atualizar os dados',
+    'alert_delete_data_success' => 'Dados excluidos com sucesso!',
+    'alert_want_to_logout' => 'Deseja sair?',
+    'alert_warning' => "Oops",
+    'alert_danger' => 'Algo deu errado...',
+    'alert_success' => 'Uau, bom trabalho...',
+    'alert_info' => 'Informação',
+    'alert_primary' => 'Informação',
+    'alert_session_expired' => 'Sua sessão expirou, por favor faça o login novamente!',
+    'alert_password_wrong' => 'Desculpe, sua senha errada!',
+    'alert_required' => 'Por favor, certifique-se de preencher todos os campos obrigatórios corretamente.',
+    'alert_error_ajax' => 'Ok, é embaraçoso, algo deu mal, vamos corrigi-lo em breve!',
+    'alert_validation_error' => 'Por favor preencha o formulário corretamente: :error',
+    'add_data_page_title' => 'Adicionar :module',
+    'edit_data_page_title' => 'Editar :module',
+    'detail_data_page_title' => 'Detalhar :module',
+    'default_module_description' => 'Lista de dados',
+    'delete_description_confirm' => "Você não será capaz de recuperar esses dados de registro! You will not be able to recover this record data!",
+    'delete_title_confirm' => "Você tem certeza?",
+    'action_show_data' => 'Mostrar dados',
+    'action_add_data' => 'Adicionar dados',
+    'action_delete_selected' => 'Excluir selecionado',
+    'action_label' => 'Ação',
+    'action_detail_data' => 'Detalhar dados',
+    'action_edit_data' => 'Editar dados',
+    'action_delete_data' => 'Excluir',
+    'button_cancel' => 'Cancelar',
+    'button_add' => 'Adicionar dados',
+    'button_edit' => 'Alterar dados',
+    'button_back' => 'Voltar',
+    'button_save' => 'Salvar',
+    'button_save_more' => 'Salvar & Adicionar mais',
+    'button_import' => 'Importar dados',
+    'button_export' => 'Exportar dados',
+    'button_filter' => 'Ordernar & Filtrar',
+    'button_close' => 'Fechar',
+    'button_submit' => 'Enviar',
+    'button_logout' => 'Sair',
+    'button_sign_in' => 'Cadastrar',
+    'button_selected_action' => 'Ações em massa',
+    'button_download_file' => 'Download',
+    'button_reset' => 'Reset',
+    'button_add_to_table' => 'Add To Table',
+
+>>>>>>> 5.4.0
     'export_dialog_title' => "Exportar dados",
     'export_dialog_filename' => 'Nome do arquivo',
     'export_dialog_help_filename' => 'VocẼ pode renomear o arquivo de acordo com sua vontade',
@@ -111,7 +179,11 @@ return [
     'online' => 'Online',
     'controller_route_404' => 'Controle / Rota não encontra]',
     'home' => 'Inicio',
+<<<<<<< HEAD
     'Notificactions' => 'Notifications',
+=======
+    'Notifications' => 'Notifications',
+>>>>>>> 5.4.0
     'Privileges' => 'Privileges',
     'Privileges_Roles' => 'Privilégios',
     'Add_New_Privilege' => 'Adicionar novo Privilégio',
@@ -131,7 +203,11 @@ return [
     'settings' => 'Configurações',
     'Users_Management' => 'Gestão de usuários',
     'list_API' => 'Listar API (Documentação)',
+<<<<<<< HEAD
     'Generate_Secret_Key' => 'Gerar nova chave secreta',
+=======
+    'Generate_Screet_Key' => 'Gerar nova chave secreta',
+>>>>>>> 5.4.0
     'Add_New_Email' => 'Adicionar novo e-mail',
     'List_Email_Template' => 'Listar modelos de e-mail',
     'Email_Templates' => 'Modelos de e-mail',
@@ -198,6 +274,7 @@ return [
     'confirmation_text' => 'Tem certeza de que quer fazer isso?',
     'confirmButtonText' => 'Sim',
 
+<<<<<<< HEAD
     //datamodal
     'datamodal_select' => 'Select',
     'datamodal_search_and_enter' => 'Search and enter...',
@@ -220,4 +297,39 @@ return [
     'click_to_sort_ascending' => 'Click to sort ascending',
     'click_to_sort_descending' => 'Click to sort descending',
 
+=======
+    // privilege
+    'privileges_name' => 'Nome do Privilégio',
+    'privileges_super_admin' => 'Super Admin',
+    'privileges_standart_user' => 'Usuário Padrão',
+    'privileges_ID' => 'ID',
+
+    'set_as_superadmin' => 'Configurar como Superadmin',
+    'chose_theme_color_select' => '** Escolha a cor de fundo do tema',
+    'chose_theme_color' => ' Cor do Tema',
+    'privileges_configuration' => 'Configuração de Privilégios',
+    'privileges_module_list_no' => 'Não.',
+    'privileges_module_list_mod_names' => 'Nome dos Módulos',
+    'privileges_module_list_view' => 'Visualizar',
+    'privileges_module_list_create' => 'Criar',
+    'privileges_module_list_read' => 'Ler',
+    'privileges_module_list_update' => 'Atualizar',
+    'privileges_module_list_delete' => 'Excluir',
+
+    //datamodal
+    'datamodal_select' => 'Select',
+    'datamodal_search_and_enter' => 'Search and enter...',
+    'datamodal_enter_to_search' => 'Enter to search',
+    'datamodal_browse_data' => 'Browse Data',
+    'datamodal_browse_file' => 'Browse File',
+
+    //child 
+    'table_detail' => 'Table Detail',
+    'your_file_size_is_too_big' => 'Your file size is too big',
+    'save_changes' => 'Save Changes',
+    'please_complete_the_form' => 'Please complete the form !',
+    'this_field_is_required' => 'This field is required',
+    'text_form' => 'Form',
+    "your_file_extension_is_not_allowed " => "Your file extension is not allowed !",
+>>>>>>> 5.4.0
 ];

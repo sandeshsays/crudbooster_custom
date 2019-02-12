@@ -1,5 +1,6 @@
 exclude_patterns:
 - "docs/"
+<<<<<<< HEAD
 - "**/views/"
 - "**/*.blade.php"
 - "**/FontAwesome.php"
@@ -10,6 +11,13 @@ exclude_patterns:
 - "**/Seeder.php"
 - "**/*_routes.php"
 - "**/*Form.php"
+=======
+- "src/views/"
+- "src/assets/"
+- "src/configs/"
+- "src/database/"
+- "src/localization/"
+>>>>>>> 5.4.0
 - "src/laravel-filemanager/"
 - "**/*.js"
 - "**/*.MD"

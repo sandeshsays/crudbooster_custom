@@ -37,6 +37,25 @@ return [
                 * Mungkin halaman yang anda kunjungi telah dihapus oleh Admin<br/>
                 * Anda tetap bisa kembali ke halaman sebelumnya dengan menekan tombol back pada browser anda<br/>',
 
+<<<<<<< HEAD
+=======
+    'log_try_view' => 'Mencoba melihat data :name pada :module',
+    'log_try_edit' => 'Mencoba mengubah data :name pada :module',
+    'log_try_add' => 'Mencoba menambah data :module',
+    'log_try_add_save' => 'Mencoba menambah data :name pada :module',
+    'log_try_delete' => 'Mencoba menghapus :name data pada :module',
+    'log_try_delete_selected' => 'Mencoba menghapus data terpilih :module',
+    'log_try_delete_image' => 'Mencoba menghapus gambar :name data pada :module',
+    'log_try_update' => 'Mencoba mengubah :name data pada :module',
+    'log_add' => 'Tambah data baru :name pada :module',
+    'log_update' => 'Memperbaharui data :name pada :module',
+    'log_delete' => 'Menghapus data :name pada :module',
+    'log_delete_image' => 'Menghapus gambar :name pada :module',
+    'log_login' => ':email login dengan IP Address :ip',
+    'log_forgot' => 'Seseorang dengan IP :ip meminta password ulang :email',
+    'log_logout' => ':email keluar',
+
+>>>>>>> 5.4.0
     'alert_delete_selected' => 'Apakah anda yakin ingin menghapus data yang terpilih ?',
     'alert_delete_selected_success' => 'Menghapus data terpilih berhasil !',
     'alert_bulk_action_button' => 'Apakah anda yakin untuk',
@@ -124,7 +143,11 @@ return [
     'online' => 'Online',
     'controller_route_404' => 'Controller / Route tidak tersedia',
     'home' => 'Halaman Awal',
+<<<<<<< HEAD
     'Notificactions' => 'Notifications',
+=======
+    'Notifications' => 'Notifications',
+>>>>>>> 5.4.0
     'Privileges' => 'Privileges',
     'Privileges_Roles' => 'Detil Hak Akses',
     'Add_New_Privilege' => 'Tambah Hak Akses',
@@ -144,7 +167,11 @@ return [
     'settings' => 'Pengaturan',
     'Users_Management' => 'Manajemen Pengguna',
     'list_API' => 'Daftar API (Dokumentasi)',
+<<<<<<< HEAD
     'Generate_Secret_Key' => 'Buat Kunci Rahasia (API)',
+=======
+    'Generate_Screet_Key' => 'Buat Kunci Rahasia (API)',
+>>>>>>> 5.4.0
     'Add_New_Email' => 'Tambah Kerangka Email',
     'List_Email_Template' => 'Daftar Kerangka Email',
     'Email_Templates' => 'Kerangka Email',
@@ -210,6 +237,26 @@ return [
     'confirmation_title' => 'Konfirmasi',
     'confirmation_text' => 'Apakah anda yakin akan melakukan aksi ini?',
     'confirmButtonText' => 'Ya',
+<<<<<<< HEAD
+=======
+
+    // privilege
+    'privileges_name' => 'Privilege Name',
+    'privileges_super_admin' => 'Super Admin',
+    'privileges_standart_user' => 'Standart user',
+    'privileges_ID' => 'ID',
+    'set_as_superadmin' => 'Set as Superadmin',
+    'chose_theme_color_select' => '** Choose Backend Theme Color',
+    'chose_theme_color' => ' Theme Color',
+    'privileges_configuration' => 'Privileges Configuration',
+    'privileges_module_list_no' => 'No.',
+    'privileges_module_list_mod_names' => 'Module\'s Name',
+    'privileges_module_list_view' => 'View',
+    'privileges_module_list_create' => 'Create',
+    'privileges_module_list_read' => 'Read',
+    'privileges_module_list_update' => 'Update',
+    'privileges_module_list_delete' => 'Delete',
+>>>>>>> 5.4.0
 
     //datamodal 
     'datamodal_select' => 'Select',
@@ -226,10 +273,13 @@ return [
     'this_field_is_required' => 'This field is required',
     'text_form' => 'Form',
     "your_file_extension_is_not_allowed " => "Your file extension is not allowed !",
+<<<<<<< HEAD
 
     'toggle_navigation' => "Toggle navigation",
     'information' => "Information",
     'at_least_one_row' => 'Please select at least one row!',
     'click_to_sort_ascending' => 'Click to sort ascending',
 
+=======
+>>>>>>> 5.4.0
 ];

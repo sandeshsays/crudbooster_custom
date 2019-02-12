@@ -36,6 +36,25 @@ return [
                 * ربما تم حذف الصفحة<br/>
                 * يمكنك العودة للخلف وتجربة رابط اخر<br/>',
 
+<<<<<<< HEAD
+=======
+    'log_try_view' => 'حاول عرض  :name في :module',
+    'log_try_edit' => 'حاول تعديل بيانات :name في :module',
+    'log_try_add' => 'حاول اضافة بيانات في :module',
+    'log_try_add_save' => 'حاول اضافة بيانات :name data في :module',
+    'log_try_delete' => 'حاول حذف :name data في :module',
+    'log_try_delete_selected' => 'حاول حذف في :module',
+    'log_try_delete_image' => 'حاول حذف الصور من :name data في :module',
+    'log_try_update' => 'حاول تعديل الاسم :name data في :module',
+    'log_add' => 'اضافة بيانات جديدة :name في :module',
+    'log_update' => 'تعديل :name في :module',
+    'log_delete' => 'حذف :name في :module',
+    'log_delete_image' => 'حذف الصورة :name في :module',
+    'log_login' => ':email سجل دخل من رقم آيبي :ip',
+    'log_forgot' => 'شخصا ما من الآيبي :ip طلب اعاة تعيين كلمة المرور :email',
+    'log_logout' => ':email تسجيل خروج',
+
+>>>>>>> 5.4.0
     'alert_delete_selected' => 'هل آنت متآكد من حئف كافة البيانات المحددة ?',
     'alert_delete_selected_success' => 'البيانات المحددة تم حذفها بنجاح !',
     'alert_action' => 'تم :action بنجاح !',
@@ -122,7 +141,11 @@ return [
     'online' => 'متصل',
     'controller_route_404' => 'لم يتم العثور على الرابط المطلوب',
     'home' => 'الرئيسية',
+<<<<<<< HEAD
     'Notificactions' => 'Notifications',
+=======
+    'Notifications' => 'Notifications',
+>>>>>>> 5.4.0
     'Privileges' => 'Privileges',
     'Privileges_Roles' => 'صلاحيات الوصول',
     'Add_New_Privilege' => 'اضافة صلاحية',
@@ -142,7 +165,11 @@ return [
     'settings' => 'اعدادات النظام',
     'Users_Management' => 'ادارة المستخدمين',
     'list_API' => 'عرض API',
+<<<<<<< HEAD
     'Generate_Secret_Key' => 'انشاء مفتاح',
+=======
+    'Generate_Screet_Key' => 'انشاء مفتاح',
+>>>>>>> 5.4.0
     'Add_New_Email' => 'اضافة قالب جديد',
     'List_Email_Template' => 'عرض القوالب',
     'Email_Templates' => 'قوالب البريد الإلكتروني',
@@ -204,6 +231,7 @@ return [
     'chose_an_image' => 'اختر صورة ',
     'chose_an_file' => 'اختر ملف ',
 
+<<<<<<< HEAD
     //datamodal
     'datamodal_select' => 'Select',
     'datamodal_search_and_enter' => 'Search and enter...',
@@ -225,4 +253,38 @@ return [
     'at_least_one_row' => 'Please select at least one row!',
     'click_to_sort_ascending' => 'Click to sort ascending',
     'click_to_sort_descending' => 'Click to sort descending',
+=======
+    // privilege
+    'privileges_name' => 'اسم الصلاحية',
+    'privileges_super_admin' => 'مدير النظام',
+    'privileges_standart_user' => 'مستخدم',
+    'privileges_ID' => 'م',
+    'set_as_superadmin' => 'تعيين كمدير للنظام',
+    'chose_theme_color_select' => '** اختر لون لوحة التحكم',
+    'chose_theme_color' => ' لون لوحة التحكم',
+    'privileges_configuration' => 'اعدادات الصلاحيات',
+    'privileges_module_list_no' => 'لا.',
+    'privileges_module_list_mod_names' => 'اسم النظام',
+    'privileges_module_list_view' => 'عرض',
+    'privileges_module_list_create' => 'انشاء',
+    'privileges_module_list_read' => 'قراءة',
+    'privileges_module_list_update' => 'تحديث',
+    'privileges_module_list_delete' => 'حذف',
+
+    //datamodal
+    'datamodal_select' => 'اختيار',
+    'datamodal_search_and_enter' => 'البحث ...',
+    'datamodal_enter_to_search' => 'اضفط ادخال للبحث',
+    'datamodal_browse_data' => 'استعراض البيانات',
+    'datamodal_browse_file' => 'استعراض الملف',
+
+    //child 
+    'table_detail' => 'تفاصيل الجدول',
+    'your_file_size_is_too_big' => 'حجم الملف كبير جدا',
+    'save_changes' => 'حفظ التغييرات',
+    'please_complete_the_form' => 'فضلا اكمل كافة حقول النموذج !',
+    'this_field_is_required' => 'الحقل اجباري',
+    'text_form' => 'نموذح',
+    "your_file_extension_is_not_allowed " => "امتداد الملف غير مسموح به !",
+>>>>>>> 5.4.0
 ];

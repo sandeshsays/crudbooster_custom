@@ -1,10 +1,14 @@
 {
     "name": "sandeshsays/crudbooster",
     "description": "CRUDBooster Is A New Way Laravel CRUD Generator. It's easy, flexible, and powerful.",
+
     "type": "project",
     "license": "MIT",
     "keywords": [
         "laravel",
+        "admin-panel",
+        "backend",
+        "crud-generator",
         "crudbooster",
         "crud",
         "admin panel",
@@ -23,7 +27,7 @@
             "email": "sandeshsays@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "develop",
     "require": {
         "php": ">=7.1",
         "laravel/framework": "~5.5",
@@ -33,6 +37,7 @@
         "intervention/imagecache": "2.*",
         "imanghafoori/laravel-widgetize": "1.8.*",
         "imanghafoori/laravel-terminator": "1.0.*"
+
     },
     "autoload": {
         "files": [

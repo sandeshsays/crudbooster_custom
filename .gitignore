@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /node_modules
 /public/storage
 /vendor
@@ -10,3 +11,10 @@ Homestead.yaml
 *.php_cs.cache
 /composer.lock
 .phpstorm.meta.php
+=======
+.idea
+/vendor
+*.iml
+out
+gen
+>>>>>>> 5.4.0
