@@ -1,9 +1,9 @@
 {
-    "name": "crocodicstudio/crudbooster",
+    "name": "sandeshsays/crudbooster",
     "description": "CRUDBooster Is A New Way Laravel CRUD Generator. It's easy, flexible, and powerful.",
     "type": "project",
     "license": "MIT",
-    "keywords":[
+    "keywords": [
         "laravel",
         "crudbooster",
         "crud",
@@ -11,40 +11,42 @@
         "admin generator",
         "php code generator"
     ],
-    "authors": [
-        {
+    "authors": [{
             "name": "Ferry",
             "email": "ferry@crocodic.com"
         },
         {
             "name": "Iman Ghafoori",
             "email": "imanghafoori1@gmail.com"
+        }, {
+            "name": "Sandesh Maharjan",
+            "email": "sandeshsays@gmail.com"
         }
     ],
     "minimum-stability": "dev",
     "require": {
-        "php":">=7.1",
-        "laravel/framework":"~5.5",
+        "php": ">=7.1",
+        "laravel/framework": "~5.5",
         "barryvdh/laravel-dompdf": "0.8.*",
         "doctrine/dbal": "~2.3",
         "maatwebsite/excel": "~3.0",
-        "intervention/imagecache":"2.*",
-        "imanghafoori/laravel-widgetize":"1.8.*",
-        "imanghafoori/laravel-terminator":"1.0.*"
+        "intervention/imagecache": "2.*",
+        "imanghafoori/laravel-widgetize": "1.8.*",
+        "imanghafoori/laravel-terminator": "1.0.*"
     },
     "autoload": {
         "files": [
             "src/Helpers/CBHelper.php"
         ],
         "psr-4": {
-          "Crocodicstudio\\Crudbooster\\": "src/"
+            "Crocodicstudio\\Crudbooster\\": "src/"
         }
     },
-      "extra": {
+    "extra": {
         "laravel": {
-          "providers": [
-            "Crocodicstudio\\Crudbooster\\CBServiceProvider"
-          ]
+            "providers": [
+                "Crocodicstudio\\Crudbooster\\CBServiceProvider"
+            ]
         }
-      }
+    }
 }
